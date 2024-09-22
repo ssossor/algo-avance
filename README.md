@@ -12,4 +12,4 @@ Notre application permet de :
 - Une fois connecté, il est possible d'afficher sur le bot crisp un carousel avec les différents types de canards. Ce carousel possède des boutons qui redirigent vers les pages des canards correspondant.
 - Une fois sur la page d'un canard, l'application enregistre automatiquement l'utilisateur qui a consulté la page, le canard consulté ainsi que la date et l'heure de consultation. Un canard est ensuite automatiquement recommandé sur le bot crisp, pour permettre une navigation facile. Un bouton permet d'attribuer une note sur 5 au canard. Cette note est ensuite enregistrée dans la base de données. La note est modifiable.
 
-Nous n'
+Pour le bon fonctionnement de l'application, il est nécéssaire de rajouter le token de votre bot crisp dans le fichier .env a la racine de l'application, ainsi que d'ajouter dans le fichier .env.local un secret jwt que vous pouvez generer à l'aide de la commande `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"`
